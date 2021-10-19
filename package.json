@@ -1,0 +1,29 @@
+{
+  "name": "client-tailwind-vue",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@headlessui/vue": "~1.4.1",
+    "@heroicons/vue": "~1.0.4",
+    "axios": "~0.22.0",
+    "socket.io-client": "~4.2.0",
+    "tailwindcss": "~2.2.16",
+    "vue": "~3.2.16",
+    "vue-router": "~4.0.11",
+    "vuex": "~4.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "~1.9.2",
+    "autoprefixer": "~10.3.6",
+    "postcss": "~8.3.8",
+    "vite": "~2.6.0"
+  },
+  "keywords": [],
+  "author": "Sandor Escobar Ruiz",
+  "license": "ISC"
+}
