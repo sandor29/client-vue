@@ -18,6 +18,8 @@ echo. 3 - Run Build
 echo.
 echo. 4 - Run Serve : 5000 vite
 echo.
+echo. 5 - Run Deploy
+echo.
 echo. 0 - Salir ...
 echo.
 echo ------------------------------------------
@@ -30,6 +32,7 @@ if "%var%"=="1" goto opt1
 if "%var%"=="2" goto opt2
 if "%var%"=="3" goto opt3
 if "%var%"=="4" goto opt4
+if "%var%"=="5" goto opt5
 if "%var%"=="0" goto salir
 
 echo.
@@ -78,6 +81,16 @@ goto:inicio
 start http://127.0.0.1:5000
 :: start
 start npm run serve
+
+pause
+:: Regresar
+goto:inicio
+
+:: Opcion - 5 - Run Deploy 
+:opt5
+
+:: start
+start npm run deploy
 
 pause
 :: Regresar
